@@ -6,21 +6,20 @@ package woodlouse.crypto.ec;
 
 import java.security.SecureRandom;
 
-import org.bouncycastle.crypto.BufferedBlockCipher;
-import org.bouncycastle.crypto.KeyEncoder;
-import org.bouncycastle.crypto.agreement.ECDHBasicAgreement;
-import org.bouncycastle.crypto.engines.AESFastEngine;
-import org.bouncycastle.crypto.engines.IESEngine;
-import org.bouncycastle.crypto.generators.ECKeyPairGenerator;
-import org.bouncycastle.crypto.generators.EphemeralKeyPairGenerator;
-import org.bouncycastle.crypto.generators.KDF2BytesGenerator;
-import org.bouncycastle.crypto.modes.CFBBlockCipher;
-import org.bouncycastle.crypto.params.AsymmetricKeyParameter;
-import org.bouncycastle.crypto.params.ECDomainParameters;
-import org.bouncycastle.crypto.params.ECKeyGenerationParameters;
-import org.bouncycastle.crypto.params.ECPublicKeyParameters;
-import org.bouncycastle.crypto.parsers.ECIESPublicKeyParser;
-
+import bouncycastle.crypto.BufferedBlockCipher;
+import bouncycastle.crypto.KeyEncoder;
+import bouncycastle.crypto.agreement.ECDHBasicAgreement;
+import bouncycastle.crypto.engines.AESFastEngine;
+import bouncycastle.crypto.engines.IESEngine;
+import bouncycastle.crypto.generators.ECKeyPairGenerator;
+import bouncycastle.crypto.generators.EphemeralKeyPairGenerator;
+import bouncycastle.crypto.generators.KDF2BytesGenerator;
+import bouncycastle.crypto.modes.CFBBlockCipher;
+import bouncycastle.crypto.params.AsymmetricKeyParameter;
+import bouncycastle.crypto.params.ECDomainParameters;
+import bouncycastle.crypto.params.ECKeyGenerationParameters;
+import bouncycastle.crypto.params.ECPublicKeyParameters;
+import bouncycastle.crypto.parsers.ECIESPublicKeyParser;
 import woodlouse.crypto.InvalidCipherBytesException;
 
 /**

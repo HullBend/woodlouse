@@ -4,10 +4,10 @@
  */
 package woodlouse.crypto.util;
 
-import org.bouncycastle.crypto.PBEParametersGenerator;
-import org.bouncycastle.crypto.digests.SHA256Digest;
-import org.bouncycastle.crypto.generators.PKCS5S2ParametersGenerator;
-import org.bouncycastle.crypto.params.KeyParameter;
+import bouncycastle.crypto.PBEParametersGenerator;
+import bouncycastle.crypto.digests.SHA256Digest;
+import bouncycastle.crypto.generators.PKCS5S2ParametersGenerator;
+import bouncycastle.crypto.params.KeyParameter;
 
 /**
  * A simplified wrapper around the password-based key derivation function

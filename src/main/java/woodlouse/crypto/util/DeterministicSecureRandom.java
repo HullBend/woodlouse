@@ -6,7 +6,7 @@ package woodlouse.crypto.util;
 
 import java.security.SecureRandom;
 
-import org.bouncycastle.crypto.prng.FixedSecureRandom;
+import bouncycastle.crypto.prng.FixedSecureRandom;
 
 /**
  * A deterministic {@link SecureRandom} implementation that must be seeded with

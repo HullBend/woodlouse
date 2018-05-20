@@ -4,13 +4,13 @@
  */
 package woodlouse.crypto.ec;
 
-import org.bouncycastle.crypto.Digest;
-import org.bouncycastle.crypto.Mac;
-import org.bouncycastle.crypto.digests.SHA256Digest;
-import org.bouncycastle.crypto.digests.SHA3Digest;
-import org.bouncycastle.crypto.digests.SHA512tDigest;
-import org.bouncycastle.crypto.macs.HMac;
-import org.bouncycastle.crypto.params.IESWithCipherParameters;
+import bouncycastle.crypto.Digest;
+import bouncycastle.crypto.Mac;
+import bouncycastle.crypto.digests.SHA256Digest;
+import bouncycastle.crypto.digests.SHA3Digest;
+import bouncycastle.crypto.digests.SHA512tDigest;
+import bouncycastle.crypto.macs.HMac;
+import bouncycastle.crypto.params.IESWithCipherParameters;
 
 /**
  * Provides automatic ECIES parametrization as a function of the ECIES key

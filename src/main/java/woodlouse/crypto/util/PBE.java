@@ -6,17 +6,16 @@ package woodlouse.crypto.util;
 
 import java.security.SecureRandom;
 
-import org.bouncycastle.crypto.BufferedBlockCipher;
-import org.bouncycastle.crypto.CipherParameters;
-import org.bouncycastle.crypto.PBEParametersGenerator;
-import org.bouncycastle.crypto.digests.SHA256Digest;
-import org.bouncycastle.crypto.engines.AESFastEngine;
-import org.bouncycastle.crypto.generators.PKCS12ParametersGenerator;
-import org.bouncycastle.crypto.modes.CBCBlockCipher;
-import org.bouncycastle.crypto.paddings.PKCS7Padding;
-import org.bouncycastle.crypto.paddings.PaddedBufferedBlockCipher;
-import org.bouncycastle.util.Arrays;
-
+import bouncycastle.crypto.BufferedBlockCipher;
+import bouncycastle.crypto.CipherParameters;
+import bouncycastle.crypto.PBEParametersGenerator;
+import bouncycastle.crypto.digests.SHA256Digest;
+import bouncycastle.crypto.engines.AESFastEngine;
+import bouncycastle.crypto.generators.PKCS12ParametersGenerator;
+import bouncycastle.crypto.modes.CBCBlockCipher;
+import bouncycastle.crypto.paddings.PKCS7Padding;
+import bouncycastle.crypto.paddings.PaddedBufferedBlockCipher;
+import bouncycastle.util.Arrays;
 import woodlouse.crypto.InvalidCipherBytesException;
 
 /**

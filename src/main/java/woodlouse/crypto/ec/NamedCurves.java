@@ -7,9 +7,9 @@ package woodlouse.crypto.ec;
 import java.math.BigInteger;
 import java.util.HashMap;
 
-import org.bouncycastle.crypto.params.ECDomainParameters;
-import org.bouncycastle.math.ec.ECCurve;
-import org.bouncycastle.util.encoders.Hex;
+import bouncycastle.crypto.params.ECDomainParameters;
+import bouncycastle.math.ec.ECCurve;
+import bouncycastle.util.encoders.Hex;
 
 /**
  * The ECC-Brainpool "r1" curves for 224 bit and above.

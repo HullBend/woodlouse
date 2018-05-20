@@ -14,8 +14,7 @@ import java.util.Set;
 import javax.crypto.SecretKey;
 import javax.crypto.spec.SecretKeySpec;
 
-import org.bouncycastle.crypto.util.Pack;
-
+import bouncycastle.crypto.util.Pack;
 import woodlouse.crypto.util.B64EncDec;
 import woodlouse.crypto.util.PBE;
 

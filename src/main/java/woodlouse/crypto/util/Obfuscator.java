@@ -6,8 +6,8 @@ package woodlouse.crypto.util;
 
 import java.security.SecureRandom;
 
-import org.bouncycastle.crypto.engines.ISAACEngine;
-import org.bouncycastle.crypto.params.KeyParameter;
+import bouncycastle.crypto.engines.ISAACEngine;
+import bouncycastle.crypto.params.KeyParameter;
 
 /**
  * A simple byte array obfuscation facility. An obfuscated byte array grows by 6

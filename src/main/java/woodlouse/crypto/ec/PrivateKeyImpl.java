@@ -44,9 +44,10 @@ public class PrivateKeyImpl extends SecretKeySpec implements ECIESPrivateKey {
       super(d.toByteArray(), algorithm);
    }
 
-   /**
-    * @return
-    */
+	/**
+	 * @return an encoded BigInteger representation of the {@code D} of this
+	 *         {@code PrivateKey}
+	 */
    public BigInteger getD() {
       return new BigInteger(getEncoded());
    }

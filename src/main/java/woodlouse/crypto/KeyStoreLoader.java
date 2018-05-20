@@ -24,7 +24,7 @@ public final class KeyStoreLoader {
     * password.
     * 
     * @param privateKeyStore
-    * @return
+    * @return the ECIESPrivateKey loaded from the file
     * @throws IOException
     */
    public static ECIESPrivateKey loadPrivateKeyWithDefaults(final File privateKeyStore) throws IOException {
@@ -39,7 +39,7 @@ public final class KeyStoreLoader {
     * 
     * @param privateKeyStore
     * @param privateKeyStorePassword
-    * @return
+    * @return the ECIESPrivateKey loaded from the file
     * @throws IOException
     */
    public static ECIESPrivateKey loadPrivateKey(final File privateKeyStore, final String privateKeyStorePassword) throws IOException {
@@ -55,7 +55,7 @@ public final class KeyStoreLoader {
     * {@code publicKeyStore} argument.
     * 
     * @param publicKeyStore
-    * @return
+    * @return the ECIESPublicKey loaded from the file
     * @throws IOException
     */
    public static ECIESPublicKey loadPublicKey(final File publicKeyStore) throws IOException {

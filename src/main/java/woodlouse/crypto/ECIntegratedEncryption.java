@@ -14,7 +14,7 @@ public abstract class ECIntegratedEncryption implements IntegratedEncryption {
    /**
     * Get an instance of {@link IntegratedEncryption}.
     * 
-    * @return
+    * @return an IntegratedEncryption instance 
     */
    public static IntegratedEncryption create() {
       return ECIntegratedEncryptionProvider.create();

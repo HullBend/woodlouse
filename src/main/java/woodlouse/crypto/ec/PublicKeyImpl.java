@@ -38,7 +38,7 @@ public class PublicKeyImpl extends SecretKeySpec implements ECIESPublicKey {
    }
 
    /**
-    * @return
+    * @return an encoded InputStream for this {@code PublicKey}
     */
    public InputStream getInputStream() {
       return new ByteArrayInputStream(getEncoded());

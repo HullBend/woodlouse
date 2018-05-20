@@ -89,13 +89,13 @@ public class XmlStore {
    }
 
    /**
-    * The same as {@link Map#put(String, String)}.
+    * The same as {@link Map#put(Object, Object)}.
     * 
     * @param name
     *           a unique key.
     * @param value
     *           a value associated with the name.
-    * @return as in {@link Map#put(String, String)}.
+    * @return as in {@link Map#put(Object, Object)}.
     */
    public String put(final String name, final String value) {
       if (name == null) {
@@ -108,11 +108,11 @@ public class XmlStore {
    }
 
    /**
-    * The same as {@link Map#get(String)}.
+    * The same as {@link Map#get(Object)}.
     * 
     * @param name
     *           a unique key.
-    * @return as in {@link Map#get(String)}.
+    * @return as in {@link Map#get(Object)}.
     */
    public String get(final String name) {
       if (name == null) {
@@ -124,7 +124,7 @@ public class XmlStore {
    /**
     * Returns all names (keys) in this Store.
     * 
-    * @return
+    * @return all keys in this store
     */
    public Set<String> names() {
       HashSet<String> names = new HashSet<String>(nameValuePairs.keySet());

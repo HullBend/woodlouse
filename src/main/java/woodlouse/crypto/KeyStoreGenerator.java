@@ -68,7 +68,7 @@ public final class KeyStoreGenerator {
     * @param comments
     *           optional comment to embed in the KeyStore (may be null or
     *           empty).
-    * @throw IllegalArgumentException in case of wrong arguments.
+    * @throws IllegalArgumentException in case of wrong arguments.
     * @throws IOException
     *            in case of an IO error.
     */
@@ -103,7 +103,7 @@ public final class KeyStoreGenerator {
     * @param comments
     *           optional comment to embed in the KeyStore (may be null or
     *           empty).
-    * @throw IllegalArgumentException in case of wrong arguments.
+    * @throws IllegalArgumentException in case of wrong arguments.
     * @throws IOException
     *            in case of an IO error.
     */
@@ -131,7 +131,7 @@ public final class KeyStoreGenerator {
     * @param comments
     *           optional comment to embed in the KeyStore (may be null or
     *           empty).
-    * @throw IllegalArgumentException in case of wrong arguments.
+    * @throws IllegalArgumentException in case of wrong arguments.
     * @throws IOException
     *            in case of an IO error.
     */
@@ -158,7 +158,7 @@ public final class KeyStoreGenerator {
     * @param comments
     *           optional comment to embed in the KeyStore (may be null or
     *           empty).
-    * @throw IllegalArgumentException in case of wrong arguments.
+    * @throws IllegalArgumentException in case of wrong arguments.
     * @throws IOException
     *            in case of an IO error.
     */

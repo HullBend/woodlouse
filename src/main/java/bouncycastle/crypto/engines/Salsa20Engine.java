@@ -214,11 +214,9 @@ public class Salsa20Engine
     }
 
     /**
-     * Salsa20 function
+     * Salsa20 function. Writes the keystream into the {@code x} array.
      *
      * @param   input   input data
-     *
-     * @return  keystream
      */    
     public static void salsaCore(int rounds, int[] input, int[] x)
     {

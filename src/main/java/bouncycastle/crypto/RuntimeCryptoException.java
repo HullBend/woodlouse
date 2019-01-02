@@ -6,9 +6,9 @@ package bouncycastle.crypto;
 public class RuntimeCryptoException 
     extends RuntimeException
 {
-	private static final long serialVersionUID = 7991303447252124307L;
+    private static final long serialVersionUID = 7991303447252124307L;
 
-	/**
+    /**
      * base constructor.
      */
     public RuntimeCryptoException()

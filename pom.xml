@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.hullbend</groupId>
 	<artifactId>woodlouse</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>com.github.hullbend:woodlouse</name>
 	<description>Lightweight crypto toolkit for Android and Java 6+</description>
 	<url>https://github.com/HullBend/woodlouse/</url>

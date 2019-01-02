@@ -7,9 +7,9 @@ import java.security.SecureRandom;
 public class FixedSecureRandom
     extends SecureRandom
 {
-	private static final long serialVersionUID = -1436769663658005488L;
+    private static final long serialVersionUID = -1436769663658005488L;
 
-	private byte[]       _data;
+    private byte[]       _data;
     
     private int          _index;
     private int          _intPad;

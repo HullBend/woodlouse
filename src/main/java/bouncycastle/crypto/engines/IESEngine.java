@@ -29,17 +29,16 @@ import bouncycastle.util.BigIntegers;
  */
 public class IESEngine
 {
-	private BasicAgreement agree;
-	private DerivationFunction kdf;
-	private Mac mac;
-	private BufferedBlockCipher cipher;
-//    private byte[] macBuf;
+    private BasicAgreement agree;
+    private DerivationFunction kdf;
+    private Mac mac;
+    private BufferedBlockCipher cipher;
 
-	private boolean forEncryption;
-	private CipherParameters privParam, pubParam;
-	private IESParameters param;
+    private boolean forEncryption;
+    private CipherParameters privParam, pubParam;
+    private IESParameters param;
 
-	private byte[] V;
+    private byte[] V;
     private EphemeralKeyPairGenerator keyPairGenerator;
     private KeyParser keyParser;
 
@@ -60,7 +59,6 @@ public class IESEngine
         this.agree = agree;
         this.kdf = kdf;
         this.mac = mac;
-//        this.macBuf = new byte[mac.getMacSize()];
         this.cipher = null;
     }
 
@@ -83,7 +81,6 @@ public class IESEngine
         this.agree = agree;
         this.kdf = kdf;
         this.mac = mac;
-//        this.macBuf = new byte[mac.getMacSize()];
         this.cipher = cipher;
     }
 
